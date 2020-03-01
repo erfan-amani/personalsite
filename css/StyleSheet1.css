@@ -1,0 +1,140 @@
+﻿body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #66bfbf;
+    margin: 50px auto 0 auto;
+    padding-top: 40px;
+}
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+    line-height: 2;
+    display: block;
+}
+hr {
+  width: 5%;
+  margin: 100px auto;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+}
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #11999E;
+}
+/****************class**************/
+.top-container {
+    position: relative;
+    background-color: #E4F9F5;
+    padding-top: 400px;
+}
+.text {
+    position: absolute;
+    top: 50px;
+    left: 560px;
+    width: 400px;
+    height: 150px;
+    margin: 0;
+}
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+}
+.button-cloud {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+.middle-container {
+    display: block;
+    text-align: center;
+}
+.profile {
+  padding-top: 120px;
+  text-align: center;
+}
+.profile-pic {
+  width: 190px;
+  height: 183px;
+  border-radius: 100%;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.paint-pic {
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-pic {
+  width: 23%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.btn {
+  margin-top: 100px;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin: 100px auto;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: #2DD3BC;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: color: #11999E;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.footer-link {
+  margin: auto 20px;
+}
+
+.copyright {
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 13px;
+}
